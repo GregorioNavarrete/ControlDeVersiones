@@ -18,9 +18,12 @@ $ git push -u origin master
 
 ### Como manejarse entre ramas de desarrollo 
 
-$ git branch -a    // me dice en q rama estoy 
+$ git branch -a    // me dice en q rama estoy ,las locales y remotas
 
-$ git checkout main
+$ git checkout main  // para ir a la rama main 
+
+$  git branch -m grego // para crear ramas 
+
 
 
 
