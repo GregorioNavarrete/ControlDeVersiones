@@ -36,6 +36,14 @@ git checkout DEV // la rama con las caracteristicas a agregar, a DEV
 
 git merge grego //desde DEV pedir las actualisaciones de grego
 
+$ git add . // para mandar la actualisacion al repo remoto
+
+$ git commit -m "agregamos actualisacion de grego en rama DEV, funciona"
+
+$ git push -u origin DEV
+
+//luego si no sirve mas la rama "grego" xq ya se fuciono con DEV, la podemos borrar 
+
 
 
 
