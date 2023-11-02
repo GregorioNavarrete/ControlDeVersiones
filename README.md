@@ -20,5 +20,7 @@ $ git push -u origin master
 
 $ git branch -a    // me dice en q rama estoy 
 
+$ git checkout main
+
 
 
