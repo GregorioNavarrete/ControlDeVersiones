@@ -24,6 +24,23 @@ $ git checkout main  // para ir a la rama main
 
 $  git branch -m grego // para crear ramas 
 
+git merge-base rama1 rama2 //para ver en que commit fue se difurco una nueva rama 
+
+git log  // ve todos los commits de la rama donde estas
+
+git log --all  //todos los commites de todas las ramas 
+
+### Como unir ramas 
+
+git checkout rama-nueva // la rama con las caracteristicas a agregar, a DEV
+
+git merge DEV //la rama q queremos actualisar
+
+
+
+
+
+
 
 
 
