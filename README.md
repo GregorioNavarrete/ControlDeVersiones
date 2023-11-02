@@ -30,11 +30,11 @@ git log  // ve todos los commits de la rama donde estas
 
 git log --all  //todos los commites de todas las ramas 
 
-### Como unir ramas 
+### Como unir ramas , si quiero agregar archivos a DEV , desde grego
 
-git checkout rama-nueva // la rama con las caracteristicas a agregar, a DEV
+git checkout DEV // la rama con las caracteristicas a agregar, a DEV
 
-git merge DEV //la rama q queremos actualisar
+git merge grego //desde DEV pedir las actualisaciones de grego
 
 
 
