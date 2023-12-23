@@ -1,7 +1,7 @@
 # ControlDeVersiones
 de pruba
 
-# Creo mi repo local con una rama "master" y luego relacionos con el repo remoto 
+# Creo mi repo local nuevo con una rama "master" y luego relacionos con el repo remoto nuevo 
 $ git init
 
 $ git remote -v             //para ver si ya estoy con un repo remoto
@@ -44,7 +44,7 @@ $ git push -u origin DEV
 
 //luego si no sirve mas la rama "grego" xq ya se fuciono con DEV, la podemos borrar 
 
-# Subir codigo local a remoto, con comandos 
+# Subir codigo local ya crado a remoto remoto nuevo, con comandos 
 
 git init  //para iniciar el repo local
 
