@@ -1,7 +1,7 @@
 # ControlDeVersiones
 de pruba
 
-#  Creo mi repo local con una rama "master" y luego relacionos con el repo remoto 
+# Creo mi repo local con una rama "master" y luego relacionos con el repo remoto 
 $ git init
 
 $ git remote -v             //para ver si ya estoy con un repo remoto
