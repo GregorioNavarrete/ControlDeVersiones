@@ -44,8 +44,23 @@ $ git push -u origin DEV
 
 //luego si no sirve mas la rama "grego" xq ya se fuciono con DEV, la podemos borrar 
 
+# Subir codigo local a remoto, con comandos 
 
+git init  //para iniciar el repo local
 
+git remote add origin URL_DEL_REPOSITORIO_EN_GITHUB   //Enlazar el repositorio local con el remoto
+
+git remote set-url origin URL_DEL_REPOSITORIO_EN_GITHUB   //Si ya existe un repositorio remoto y quieres cambiar la URL   " no lo use aun "
+
+git remote -v    // verificar si el repositorio local está conectado correctamente al remoto
+
+$ git branch -m MIDerror  //crea tu propia rama y luego hace marge, para no tener quilombo
+
+$ git add .
+
+$ git commit -m "primera rama, clase de MID de errores"
+
+$ git push -u origin MIDerror 
 
 
 
