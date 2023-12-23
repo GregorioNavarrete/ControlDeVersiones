@@ -1,7 +1,7 @@
 # ControlDeVersiones
 de pruba
 
-###  Creo mi repo local con una rama "master" y luego relacionos con el repo remoto 
+#  Creo mi repo local con una rama "master" y luego relacionos con el repo remoto 
 $ git init
 
 $ git remote -v             //para ver si ya estoy con un repo remoto
@@ -16,7 +16,7 @@ $ git status
 
 $ git push -u origin master
 
-### Como manejarse entre ramas de desarrollo 
+# Como manejarse entre ramas de desarrollo 
 
 $ git branch -a    // me dice en q rama estoy ,las locales y remotas
 
@@ -30,7 +30,7 @@ git log  // ve todos los commits de la rama donde estas
 
 git log --all  //todos los commites de todas las ramas 
 
-### Como unir ramas , si quiero agregar archivos a DEV , desde grego
+# Como unir ramas , si quiero agregar archivos a DEV , desde grego
 
 git checkout DEV // la rama con las caracteristicas a agregar, a DEV
 
