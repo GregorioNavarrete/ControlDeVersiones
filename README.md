@@ -6,7 +6,9 @@ $ git init
 
 $ git remote -v             //para ver si ya estoy con un repo remoto
 
-$ git remote set-url origin https://github.com/GregorioNavarrete/ControlDeVersiones
+(si es recien creado)$ git remote add origin https://github.com/GregorioNavarrete/Clase-API-CRUDdb
+
+(si quiero de cambiarlo de repositori remoto)$ git remote set-url origin https://github.com/GregorioNavarrete/ControlDeVersiones
 
 $ git add .
 
